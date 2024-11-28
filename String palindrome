@@ -1,4 +1,4 @@
-def is_palindrome(s):
+def palindrome(s):
     return s == s[::-1]
 input_string = "radar"
 if is_palindrome(input_string):
